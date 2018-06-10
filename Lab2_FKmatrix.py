@@ -5,6 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
+
 def cos(x):
     return math.cos(math.radians(x))
 
@@ -89,7 +90,7 @@ def main():
         print 'H ='
         matlib.matprint(transformation_matrix, '%8.3f')
     else:
-        # plot_workspace(True)
+        plot_workspace(True)
         plot_workspace(False)
 
 
